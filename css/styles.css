@@ -1,4 +1,5 @@
-* Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* Gerais */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -70,10 +71,18 @@ header, .navbar {
   color: #FF6EB4;
   font-size: 70px;
   font-family: 'Dancing Script', cursiva;
-  
   margin-bottom: 30px;
 
 }
+/*Font Slide Principa*/
+#mainSlider .carousel-caption h1 {
+  color: #FF6EB4;
+  font-size: 100px;
+  text-align: right;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 30px;
+  }
+
 /* Font Paragrafo Slide */
 #mainSlider .carousel-caption p {
   font-size: 30px;
@@ -511,7 +520,6 @@ header, .navbar {
   }
 
 }
-
 
 @media(max-width: 425px) {
 

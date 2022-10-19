@@ -56,12 +56,12 @@ $( document ).ready(function() {
     $('.main-btn').removeClass('active');
     $(this).addClass('active');
 
-    if(type == 'dsg-btn') {
-      eachBoxes('dsg', boxes);
-    } else if(type == 'dev-btn') {
-      eachBoxes('dev', boxes);
-    } else if(type == 'seo-btn') {
-      eachBoxes('seo', boxes);
+    if(type == 'proc1-btn') {
+      eachBoxes('proc1', boxes);
+    } else if(type == 'proc2-btn') {
+      eachBoxes('proc2', boxes);
+    } else if(type == 'proc3-btn') {
+      eachBoxes('proc3', boxes);
     } else {
       eachBoxes('all', boxes);
     }

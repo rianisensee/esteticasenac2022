@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /* Gerais */
 body {
@@ -17,7 +18,8 @@ p, li {
   font-size: 14px;
 }
 
-/* Barra de navegação */
+/* Barra de navegação
+-------------------------------------------------------------------------------- */
 header, .navbar {
   background-color: #FF6EB4;
 }
@@ -57,7 +59,8 @@ header, .navbar {
 .container-fluid {
   padding: 0;
 }
-/* Altura Slide */
+/* Altura Slide 
+--------------------------------------------------------------------------------*/
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
   height: 90vh;
 }
@@ -66,7 +69,8 @@ header, .navbar {
   top: 30%;
 }
 
-/* Font h2 Slide*/
+/* Font <h2> Slide
+--------------------------------------------------------------------------------*/
 #mainSlider .carousel-caption h2 {
   color: #FF6EB4;
   font-size: 70px;
@@ -74,7 +78,8 @@ header, .navbar {
   margin-bottom: 30px;
 
 }
-/*Font Slide Principa*/
+/*Font Slide Principa
+--------------------------------------------------------------------------------*/
 #mainSlider .carousel-caption h1 {
   color: #FF6EB4;
   font-size: 100px;
@@ -83,7 +88,8 @@ header, .navbar {
   margin-bottom: 30px;
   }
 
-/* Font Paragrafo Slide */
+/* Font Paragrafo Slide 
+--------------------------------------------------------------------------------*/
 #mainSlider .carousel-caption p {
   font-size: 30px;
   font-weight: 300;
@@ -114,7 +120,8 @@ header, .navbar {
   background-color: #FF6EB4;
 }
 
-/* Sobre a empresa */
+/* Sobre Estétic Center 
+--------------------------------------------------------------------------------*/
 
 #about-area {
   background-color: #F9F9F9;
@@ -157,7 +164,8 @@ header, .navbar {
   margin-right: 15px;
 }
 
-/* Serviços */
+/* Serviços
+-------------------------------------------------------------------------------- */
 
 .service-box {
   text-align: center;
@@ -183,7 +191,8 @@ header, .navbar {
   color: #FF6EB4;
 }
 
-/* Dados */
+/* Dados
+-------------------------------------------------------------------------------- */
 
 .circle-box div {
   padding: 0 40px;
@@ -201,13 +210,16 @@ header, .navbar {
   margin-top: 20px;
 }
 
-/* Time */
+/* Nosso Time
+-------------------------------------------------------------------------------- */
 
 .card-body {
   text-align: center;
+  padding: auto;
 }
 
-/* Trabalhe conosco */
+/* Trabalhe conosco, Não visivel
+-------------------------------------------------------------------------------- */
 
 #apply-area {
   height: 500px;
@@ -258,7 +270,8 @@ header, .navbar {
   background-color: #FF6EB4;
 }
 
-/* Portfólio */
+/* Portfólio 
+-------------------------------------------------------------------------------- */
 
 .project-box {
   margin-bottom: 30px;
@@ -330,7 +343,8 @@ header, .navbar {
   color: #FF6EB4;
 }
 
-/* Area Orçar */
+/* Area Orçar
+-------------------------------------------------------------------------------- */
 #call-area {
   background-color: #FF6EB4;
   text-transform: uppercase;
@@ -355,7 +369,8 @@ header, .navbar {
   letter-spacing: 2px;
   display: inline;
 }
-/*Botton Inscrever*/
+/*Botton Inscrever 
+--------------------------------------------------------------------------------*/
 #call-area #call-btn {
   background-color: #FFF;
   color: #FF6EB4;
@@ -366,7 +381,8 @@ header, .navbar {
   letter-spacing: 2px;
 }
 
-/* Footer */
+/* Rodapé
+-------------------------------------------------------------------------------- */
 
 #contact-area {
   text-align: center;
@@ -441,7 +457,8 @@ header, .navbar {
   color: #3EC1D5;
 }
 
-/* responsive */
+/* responsive 
+--------------------------------------------------------------------------------*/
 @media(max-width: 768px) {
   
   /* geral */

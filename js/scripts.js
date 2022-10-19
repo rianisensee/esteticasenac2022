@@ -62,6 +62,8 @@ $( document ).ready(function() {
       eachBoxes('proc2', boxes);
     } else if(type == 'proc3-btn') {
       eachBoxes('proc3', boxes);
+    } else if(type == 'proc4-btn') {
+      eachBoxes('proc4', boxes);
     } else {
       eachBoxes('all', boxes);
     }

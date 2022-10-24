@@ -122,7 +122,6 @@ header, .navbar {
 
 /* Sobre Estétic Center 
 --------------------------------------------------------------------------------*/
-
 #about-area {
   background-color: #F9F9F9;
 }
@@ -212,7 +211,6 @@ header, .navbar {
 
 /* Nosso Time
 -------------------------------------------------------------------------------- */
-
 .card-body {
   text-align: center;
   padding: auto;
@@ -220,7 +218,6 @@ header, .navbar {
 
 /* Trabalhe conosco, Não visivel
 -------------------------------------------------------------------------------- */
-
 #apply-area {
   height: 500px;
 }
@@ -272,7 +269,6 @@ header, .navbar {
 
 /* Portfólio 
 -------------------------------------------------------------------------------- */
-
 .project-box {
   margin-bottom: 30px;
 }
@@ -301,8 +297,8 @@ header, .navbar {
   background-color: #FF6EB4;
 }
 
-/* News Letter */
-
+/* News Letter
+-------------------------------------------------------------------------------- */
 #news-area {
   text-align: center;
   background-color: #F9F9F9;
@@ -419,13 +415,15 @@ header, .navbar {
 }
 
 #contact-form input[type="text"], #contact-form textarea {
-  margin-bottom: 15px;
-  border-radius: 0;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
 }
 
 #contact-form .main-btn {
   width: 120px;
   height: 50px;
+  
 }
 /* Enviar */
 #contact-form .main-btn:hover {

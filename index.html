@@ -346,11 +346,12 @@ Eliminação de toxinas e resíduos metabólicos; Diminuição das insônias.</p
             <!-- Envia Email
             ------------------------------------------------------------------------- -->
             <div class="col-md-6" id="contact-form">
-              <form action="https://formsubmit.co/alunoalexsandroduarte@gmail.com" method="POST" />
-                <input type="text" class="form-control" placeholder="E-mail" name="email">
-                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+              <form action="https://formsubmit.co/alunoalexsandroduarte@gmail.com" method="POST"/>
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="text" name="subject" placeholder="Assunto" required>
+                <input type="text" name="email" placeholder="E-mail" required>
                 <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <input type="hidden" name="_captcha" value="false">
                 <input type="submit" class="main-btn">
               </form>
             </div>

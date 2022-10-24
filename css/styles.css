@@ -624,10 +624,11 @@ header, .navbar {
     width: 50%;
   }
 
-  /* contact */
+  /*Contato*/
   .contact-box {
     border: none;
     margin-bottom: 0;
+   
   }
 
 }

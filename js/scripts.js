@@ -46,7 +46,7 @@ $( document ).ready(function() {
     $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
   }, 200);
 
-  // Filtro portfólio
+  // Filtro imagens portfólio
 
   $('.filter-btn').on('click', function() {
 
@@ -84,7 +84,7 @@ $( document ).ready(function() {
     }
   }
 
-  // scroll para as seções
+  // scroll NAVBAR páginas por seções
 
   let navBtn = $('.nav-item');
 

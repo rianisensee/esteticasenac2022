@@ -42,8 +42,8 @@ $( document ).ready(function() {
   // Parallax
   // setTimeout serve para carregar primeiro as imagens
   setTimeout(function() {
-    $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'});
-    $('#apply-area').parallax({imageSrc: 'img/pattern.png'});
+    $('#data-area').parallax({imageSrc: 'img/paralax/mulherparallax.png'});
+    $('#apply-area').parallax({imageSrc: 'img/paralax/pattern.png'});
   }, 200);
 
   // Filtro imagens portfólio
@@ -88,12 +88,13 @@ $( document ).ready(function() {
 
   let navBtn = $('.nav-item');
 
-  let bannerSection = $('#mainSlider');
-  let aboutSection = $('#about-area');
-  let servicesSection = $('#services-area');
-  let teamSection = $('#team-area');
+  let homeSection = $('#homeSlider');
+  let sobrenosSection = $('#sobrenos-area');
+  let procedimentoSection = $('#procedimento-area');
+  let timeSection = $('#time-area');
+  let reservaSection = $('#reserva-area');
   let portfolioSection = $('#portfolio-area');
-  let contactSection = $('#contact-area');
+  let contatoSection = $('#contact-area');
 
   let scrollTo = '';
 
@@ -101,16 +102,20 @@ $( document ).ready(function() {
 
     let btnId = $(this).attr('id');
 
-    if(btnId == 'about-menu') {
-      scrollTo = aboutSection;
-    } else if(btnId == 'services-menu') {
-      scrollTo = servicesSection;
-    } else if(btnId == 'team-menu') {
-      scrollTo = teamSection;
+    if(btnId == 'home-menu') {
+      scrollTo = homeSection;
+    } else if(btnId == 'sobrenos-menu') {
+      scrollTo = sobrenosSection;
+    } else if(btnId == 'procedimento-menu') {
+      scrollTo = procedimentoSection;
+    } else if(btnId == 'time-menu') {
+      scrollTo = timeSection;
+    } else if(btnId == 'reserva-menu') {
+      scrollTo = reservaSection;
     } else if(btnId == 'portfolio-menu') {
       scrollTo = portfolioSection;
-    } else if(btnId == 'contact-menu') {
-      scrollTo = contactSection;
+    } else if(btnId == 'contato-menu') {
+      scrollTo = contatoSection;
     } else {
       scrollTo = bannerSection;
     }
@@ -121,3 +126,4 @@ $( document ).ready(function() {
   });
 
 });
+

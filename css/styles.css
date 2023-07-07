@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /* Gerais */
 body {
@@ -216,7 +215,7 @@ header, .navbar {
   padding: auto;
 }
 
-/* Trabalhe conosco, Não visivel
+/* Faça sua reserva
 -------------------------------------------------------------------------------- */
 #apply-area {
   height: 500px;
@@ -231,11 +230,11 @@ header, .navbar {
   text-align: center;
 }
 
-#company-img {
-  background-image: url('../img/empresa.jpg');
+/*#company-img {
+  background-image: url('../img/pattern2.png');
   background-size: cover;
   height: 100%;
-}
+}*/
 
 #pattern-img h4, #pattern-img p {
   color: #FFF;

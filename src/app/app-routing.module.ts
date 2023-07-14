@@ -24,10 +24,6 @@ const routes: Routes = [
     loadChildren: () => import('./time/time.module').then( m => m.TimePageModule)
   },
   {
-    path: 'portifolio',
-    loadChildren: () => import('./portifolio/portifolio.module').then( m => m.PortifolioPageModule)
-  },
-  {
     path: 'contato',
     loadChildren: () => import('./contato/contato.module').then( m => m.ContatoPageModule)
   },

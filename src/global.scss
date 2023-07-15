@@ -26,19 +26,28 @@
 @import "@ionic/angular/css/flex-utils.css";
 
 ion-content.menu-content {
-    --ion-background-color: #FF6EB4;
-  }
-  
-  ion-header {
-    --ion-background-color: #FF6EB4;
-  }
-  
-  ion-toolbar.toolbar-title,
-  ion-toolbar button {
-    color: #fff; /* cor do texto */
-  }
+  --ion-background-color: #FF6EB4;
+  --color: #fff; /* cor do texto */
+}
 
-  ion-menu {
-    --ion-background-color: #FF6EB4;
-    --ion-color-base: #fff; /* cor do texto */
-  }
+ion-header {
+  --ion-background-color: #FF6EB4;
+  --color: #fff; /* cor do texto */
+}
+
+ion-toolbar.toolbar-title,
+ion-toolbar button {
+  color: #fff; /* cor do texto */
+}
+
+ion-menu {
+  --ion-background-color: #FF6EB4;
+  --ion-color-base: #fff; /* cor do texto */
+}
+
+ion-content.menu-content ion-text,
+ion-header ion-title,
+ion-header ion-toolbar button,
+ion-menu ion-label {
+  color: #fff; /* cor do texto */
+}

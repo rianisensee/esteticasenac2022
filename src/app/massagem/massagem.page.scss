@@ -1,0 +1,28 @@
+ion-content {
+    --background: #f8f8f8;
+  }
+  
+  .content-image {
+    margin: 16px;
+    border-radius: 8px;
+  }
+  
+  .page-title {
+    color: #ff6eb4;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .text-container {
+    margin: 0 16px;
+  }
+  
+  .page-text {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5;
+    margin-top: 0;
+    letter-spacing: -0.1px;
+  }

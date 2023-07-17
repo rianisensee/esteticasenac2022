@@ -34,6 +34,38 @@ const routes: Routes = [
   {
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },
+  {
+    path: 'depilacao',
+    loadChildren: () => import('./depilacao/depilacao.module').then( m => m.DepilacaoPageModule)
+  },
+  {
+    path: 'designdesobrancelhas',
+    loadChildren: () => import('./designdesobrancelhas/designdesobrancelhas.module').then( m => m.DesigndesobrancelhasPageModule)
+  },
+  {
+    path: 'drenagemlinfatica',
+    loadChildren: () => import('./drenagemlinfatica/drenagemlinfatica.module').then( m => m.DrenagemlinfaticaPageModule)
+  },
+  {
+    path: 'limpezadepele',
+    loadChildren: () => import('./limpezadepele/limpezadepele.module').then( m => m.LimpezadepelePageModule)
+  },
+  {
+    path: 'massagem',
+    loadChildren: () => import('./massagem/massagem.module').then( m => m.MassagemPageModule)
+  },
+  {
+    path: 'microagullhamento',
+    loadChildren: () => import('./microagullhamento/microagullhamento.module').then( m => m.MicroagullhamentoPageModule)
+  },
+  {
+    path: 'micropgmentacao',
+    loadChildren: () => import('./micropgmentacao/micropgmentacao.module').then( m => m.MicropgmentacaoPageModule)
+  },
+  {
+    path: 'peeling',
+    loadChildren: () => import('./peeling/peeling.module').then( m => m.PeelingPageModule)
   }
 ];
 

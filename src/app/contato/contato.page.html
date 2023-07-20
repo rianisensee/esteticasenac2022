@@ -7,10 +7,54 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Contato</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="contact-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <br>
+          <h3 class="main-title" style="color: #FF6EB4;">Entre em contato conosco</h3>
+          <br>
+          <br>
+        </div>
+        <div class="col-12 contact-box">
+          <ion-icon name="call" style="color: #FF6EB4;"></ion-icon>
+          <p><span class="contact-tile" style="color: black;">Ligue para:</span> (21) 99930-7510</p>
+          <p><span class="contact-tile" style="color: black;">Horários:</span> 8:00 - 19:00 de Segunda a Sexta</p>
+        </div>
+        <div class="col-12 contact-box">
+          <ion-icon name="mail" style="color: #FF6EB4;"></ion-icon>
+          <p><span class="contact-tile" style="color: black;">Envie um email:</span> alunoalexsandroduarte@gmail.com</p>
+        </div>
+        <div class="col-12 contact-box">
+          <ion-icon name="location" style="color: #FF6EB4;"></ion-icon>
+          <p><span class="contact-tile" style="color: black;">Venha nos visitar:</span> Rua Coronel Carlos Matos, 86 - Centro, Nova Iguaçu - RJ, 26210-200</p>
+        </div>
+        <div class="col-12" id="msg-box">
+          <p style="color: #FF6EB4;">Ou nos deixe uma mensagem:</p>
+        </div>
+        <div class="col-12" id="contact-form">
+          <form>
+            <ion-item lines="none">
+              <ion-label style="font-size: 18px; color: black;">Nome</ion-label>
+              <ion-input type="text" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;" required></ion-input>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-label style="font-size: 18px; color: black;">E-mail</ion-label>
+              <ion-input type="email" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;" required></ion-input>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-label style="font-size: 18px; color: black;">Assunto</ion-label>
+              <ion-input type="text" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;" required></ion-input>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-label style="font-size: 18px; color: black;">Mensagem</ion-label>
+              <ion-textarea rows="6" style="border: 1px solid #ccc; border-radius: 5px; padding: 10px;" required></ion-textarea>
+            </ion-item>
+            <ion-button expand="block" color="primary" style="margin-top: 10px; background-color: #FF6EB4;">Enviar</ion-button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </ion-content>

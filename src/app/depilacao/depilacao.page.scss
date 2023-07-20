@@ -1,53 +1,30 @@
-body {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .container {
-    padding: 70px 0;
-  }
-  
-  .row {
-    margin: 0;
-  }
-  
-  h3.main-title {
-    color: #ff6eb4;
-    margin: 0 0 30px;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .col-md-6 img.img-fluid {
-    margin: 0 auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  h3.about-title {
-    font-size: 18px;
-    color: #444;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    color: #444;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  ul#about-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  ul#about-list li {
-    line-height: 20px;
-  }
-  
-  ul#about-list i {
-    color: #ff6eb4;
-    margin-right: 10px;
-  }
+ion-content {
+  --background: #f8f8f8;
+}
+
+.content-image {
+  margin: 16px;
+  border-radius: 8px;
+}
+
+.page-title {
+  color: #ff6eb4;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.text-container {
+  margin: 0 16px;
+}
+
+.page-text {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5;
+  margin-top: 0;
+  letter-spacing: 0.3px;
+}
